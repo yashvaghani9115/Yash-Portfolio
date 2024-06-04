@@ -18,14 +18,14 @@ const Cover = () => {
                                 Software Engineer
                             </div>
                         </div>
-                        <div className='flex justify-center'>
+                        {/* <div className='flex justify-center'>
                              <Image
                                 src="/images/ram1.png"
                                 alt="Ram SVG"
                                 width={120}
                                 height={120}
                             />
-                        </div>
+                        </div> */}
                         <Link
                             className="hidden md:block"
                             target="_blank"

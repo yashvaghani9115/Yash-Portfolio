@@ -12,7 +12,7 @@ const Navbar : FC<NavbarProps> = () => {
  
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/files/resume.pdf'; // Adjust the path based on your file location
+        link.href = '/files/Shubham_Shingala_Resume.pdf'; // Adjust the path based on your file location
         link.download = 'Shubham_Shingala_Resume.pdf';
         link.click();
     }

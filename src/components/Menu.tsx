@@ -46,7 +46,7 @@ const Menu = () => {
             <Instagram color="#b5179e" /> Instagram
         </List>
 
-        <div className="lg:flex  mt-10 mb-0 mx-8 justify-center">
+        {/* <div className="lg:flex  mt-10 mb-0 mx-8 justify-center">
             <Image
                 alt='Jay Shree Ram'
                 src="/images/ram.jpg"
@@ -54,7 +54,7 @@ const Menu = () => {
                 width={200}
                 className="object-cover border-2 border-w hite shadow-md"
             />
-        </div>
+        </div> */}
     
       </div>
     );
