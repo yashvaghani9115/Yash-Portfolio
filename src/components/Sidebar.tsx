@@ -17,7 +17,7 @@ const Sidebar = () => {
             <div className="toggle flex flex-col lg:m-5 lg:mt-2 w-full">
                 <div className="hidden lg:flex gap-2 ms-5 mb-2">
                     <Image
-                        alt="Shubham Shingala"
+                        alt="Yash Vaghani"
                         src="/images/roundedPic.png"
                         height={60}
                         width={60}

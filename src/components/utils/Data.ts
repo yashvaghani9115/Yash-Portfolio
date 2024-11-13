@@ -10,31 +10,31 @@ export interface IProjectSectionCardData {
 export const projectCard: IProjectSectionCardData[] = [
   {
     id: 1,
-    title: 'OCR ( Optical Character Recognition )',
-    techStack: 'Flask, Jupyter Notebook, OpenCV, TensorFlow, NumPy',
-    imageUrl: 'ocr.jpeg',
-    href: 'https://github.com/Shubham-Shingala/OCR-Printed_English_Text',
+    title: 'Online Hair Salon System',
+    techStack: 'MERN Stack, React, Express.js, MongoDb Atlas, Node js, Cloudinary(backend)',
+    imageUrl: 'hair-salon-hero.svg',
+    href: 'https://github.com/yashvaghani9115/Online_Hair_Salon_System',
   },
   {
     id: 2,
-    title: 'Freelancing Site',
-    techStack: 'MEAN Stack, Angular, NodeJs, MongoDB',
-    imageUrl: 'freelancing.jpeg',
-    href: 'https://github.com/Shubham-Shingala/Freelancing-Site',
+    title: 'Online Email System',
+    techStack: 'MEAN (MongoDB, Express, Angular, Nodejs)',
+    imageUrl: 'gmail.jfif',
+    href: 'https://github.com/SutharUtsav/Online-Email-System',
   },
   {
     id: 3,
-    title: 'Email System',
+    title: 'Online Mobile Recharge System',
     techStack: 'C#, Asp.Net Core MVC, Sqlclient, MSSql, Javascript ',
-    imageUrl: 'email.jpeg',
-    href: 'https://github.com/Shubham-Shingala/EmailSystemDotNetCore',
+    imageUrl: 'mobile-recharge.png',
+    href: 'https://github.com/SutharUtsav/Online_Mobile_Recharge_System',
   },
   {
     id: 4,
-    title: 'National Voter Service Portal',
+    title: 'Canteen Management System',
     techStack: 'Django, Python, MySql',
-    imageUrl: 'nvsp.jpeg',
-    href: 'https://github.com/Shubham-Shingala/National-Voter-Service-Portal',
+    imageUrl: 'canteen-banner.webp',
+    href: 'https://github.com/smitvaghani/CanteenManagementSystem',
   },
   
 ];
@@ -89,10 +89,6 @@ export const backend : ITechStackData[] = [
   {
     tech : "Django",
     color : "border border-green-700/60"
-  },
-  {
-    tech : "Flask",
-    color : "border border-blue-300/60"
   }
 ];
 
@@ -108,6 +104,29 @@ export const database : ITechStackData[] = [
   },
   {
     tech : "MS Sql",
+    color : "border border-purple-500/60"
+  },
+  {
+    tech : "Redis",
+    color : "border border-purple-500/60"
+  }
+];
+
+export const devops : ITechStackData[] = [
+  {
+    tech : "Docker",
+    color : "border border-green-500/60"
+  },
+  {
+    tech : "Kubernetes",
+    color : "border border-blue-500/60"
+  },
+  {
+    tech : "Azure DevOps",
+    color : "border border-purple-500/60"
+  },
+  {
+    tech : "Azure Kuberenetes Service",
     color : "border border-purple-500/60"
   }
 ];
@@ -129,26 +148,29 @@ export const experienceData : IExperienceData[] = [
     id: 1,
     companyName: "Confidosoft Solutions Pvt Ltd",
     role: "Software Developer",
-    // techStack: "Angular, .Net, C#",
-    techStack: "Python, C#, Angular, .Net",
-    // description : "As a full-time employee, I have a strong background in software development, with expertise in Angular, ASP.NET, and C#. \n In Angular, creating components, integrating APIs, injecting services, binding the frontend, and also enhancing the ng-flowchart library to meet the requirements of flow. \n  In .Net and C#, creating microservices, Windows applications, integrating that with rabbitmq, elastic search, etc. \n I've contributed to the success of various projects by building robust web applications.",
-    description : "Leveraged Python frameworks such as Django and Flask to build robust backend services, creating RESTful APIs, managing databases, and ensuring secure authentication.Developed and maintained dynamic web applications using Angular for frontend development, creating reusable components, integrating RESTful APIs, and ensuring efficient service injection and data binding. Enhanced the functionality of ng-flowchart library to accommodate complex requirements for flow-based user interfaces. Contributed to the success of various projects by delivering scalable, maintainable, and high-performance web applications.",
-    location : "Vadodara, India",
-    href : "https://www.linkedin.com/company/confidosoft",
-    startDate : "06/2023",
-    endDate : "Present",
+    techStack: "C#, .Net, SignalR, gRPC, WCF, Angular",
+    description: `• Proficient in backend development with .NET Core and Node.js, plus strong skills in SQL and NoSQL databases.  
+    • Skilled in implementing microservices architecture and asynchronous messaging with RabbitMQ.  
+    • Well-versed in DevOps practices, including CI/CD pipelines and deploying .NET applications using Docker and Kubernetes.  
+    • Led migration of OData WCF services to gRPC, achieving a 90% reduction in response time with a generic BaseService.  
+    • Developed real-time locking with SignalR, enabling caching and user notifications with refresh and reconnect support.  
+    • Transformed a WPF application into a web app with Angular and WPF WebView, resulting in an 85% reduction in loading times and a 95% improvement in user experience.`,
+    location: "Vadodara, India",
+    href: "https://www.linkedin.com/company/confidosoft",
+    startDate: "11/2023",
+    endDate: "Present",
   },
   {
     id: 2,
-    companyName: "Confidosoft Solutions Pvt Ltd",
-    role: "Software Developer Intern",
-    // techStack: "Angular, .Net, C#",
-    techStack: "Python, C#, Angular, .Net",
-    // description : "I am an experienced software developer with expertise in full-stack development, specializing in ASP.NET and C#. With a strong background in database management using MongoDB and front-end development using Angular, I have successfully delivered robust and scalable web applications, contributing to the growth of diverse projects.",
-    description : "Specialized in Python for full-stack development.Proficient in front-end development with Angular. Successfully delivered robust and scalable web applications using Django and Flask. Contributed to the growth and success of diverse projects.",
-    location : "Vadodara, India",
-    href : "https://www.linkedin.com/company/confidosoft",
-    startDate : "12/2022",
-    endDate : "05/2023",
+    companyName: "Neopric Inc.",
+    role: "Software Engineer",
+    techStack: "C#, React.js, .NET Core, Docker, Kubernetes, Azure",
+    description: `• Expertise in architecting and developing robust APIs with .NET Core and React.js.  
+    • Skilled in Docker, Kubernetes Helm, Azure Kubernetes Service (AKS), and Azure for efficient application deployment.  
+    • Well-versed in creating CI/CD pipelines for automated code delivery to production.`,
+    location: "Saint John, Canada",
+    href: "https://www.neopric.com",
+    startDate: "12/2022",
+    endDate: "10/2023",
   },
-]
+];

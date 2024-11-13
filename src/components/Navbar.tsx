@@ -12,8 +12,8 @@ const Navbar : FC<NavbarProps> = () => {
  
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/files/Shubham_Shingala_Resume.pdf'; // Adjust the path based on your file location
-        link.download = 'Shubham_Shingala_Resume.pdf';
+        link.href = '/files/Yash-Vaghani-Resume-20241108.pdf'; // Adjust the path based on your file location
+        link.download = 'Yash-Vaghani-Resume-20241108.pdf';
         link.click();
     }
     
@@ -21,7 +21,7 @@ const Navbar : FC<NavbarProps> = () => {
         <nav className="flex sticky shadow-md top-0 z-20 bg-body p-5 text-info justify-end">
         {/* <div className="flex items-center">
             <div className="w-8 h-8 bg-gray-500 rounded-full"></div>
-            <span className="text-white ml-2 text-lg font-semibold">Shubham Shingala</span>
+            <span className="text-white ml-2 text-lg font-semibold">Yash Vaghani</span>
         </div> */}
 
         {/* Right Side: Button */}

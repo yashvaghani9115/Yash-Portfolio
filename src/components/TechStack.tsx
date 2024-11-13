@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import TechCard from './ui/TechCard';
-import { backend, database, frontend } from './utils/Data';
+import { backend, database, frontend, devops } from './utils/Data';
 
 interface TechStackProps {}
 
@@ -22,6 +22,10 @@ const TechStack: FC<TechStackProps> = ({}) => {
         <TechCard
           title="Database"
           tech={database}
+        />
+        <TechCard
+          title="DevOps"
+          tech={devops}
         />
       </div>
     </div>

@@ -21,26 +21,18 @@ const Menu = () => {
         </List>
         <List
             target="_blank"
-            link="https://www.linkedin.com/in/shubham-shingala/"
+            link="https://www.linkedin.com/in/yash-vaghani/"
             effect="slideUp"
         >
             <Linkedin color="#0277b5" /> Linkedin
         </List>
-        <List target="_blank" link="https://github.com/Shubham-Shingala" effect="slideUp">
+        <List target="_blank" link="https://github.com/yashvaghani9115" effect="slideUp">
             <Github color="#2a9d8f" /> Github
         </List>
 
         <List
             target="_blank"
-            link="https://twitter.com/Shubham_140202"
-            effect="slideUp"
-        >
-            <Twitter color="blue" /> Twitter
-        </List>
-
-        <List
-            target="_blank"
-            link="https://www.instagram.com/shubhamshingalaa/"
+            link="https://www.instagram.com/yash__vaghani/"
             effect="slideUp"
         >
             <Instagram color="#b5179e" /> Instagram

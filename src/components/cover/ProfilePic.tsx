@@ -5,7 +5,7 @@ const ProfilePic = () => {
   return (
     <div className="">
         <Image
-            alt="Shubham Shingala"
+            alt="Yash Vaghani"
             src="/images/roundedPic1.png"
             height={120}
             width={120}

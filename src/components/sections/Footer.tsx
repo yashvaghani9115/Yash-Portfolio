@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
-    const mail = 'shingalashubham14@gmail.com';
+    const mail = 'yashvaghani9115@gmail.com';
   return (
     <div className='bg-cardPrimary flex justify-between text-primary mx-5 mt-0 mb-5 p-3'>
         <div className='mx-5 ms-10'>
@@ -22,10 +22,10 @@ const Footer = () => {
             <div className='flex mx-auto my-2   text-primary font-medium text-lg tracking-wider'>
                 Other Links
             </div>
-            <Link href='https://leetcode.com/Shubham_Shingala/' className='flex mx-auto my-2 ' target='_blank'>
+            <Link href='https://leetcode.com/u/yash_vaghani/' className='flex mx-auto my-2 ' target='_blank'>
                 <div className='flex text-s text-primary ms-2'>LeetCode</div>
             </Link>
-            <Link href="https://www.codechef.com/users/shubham_14_02" className='flex mx-auto my-2 ' target='_blank'>
+            <Link href="https://www.codechef.com/users/yashvaghani" className='flex mx-auto my-2 ' target='_blank'>
                 <div className='flex text-s text-primary ms-2'>Code Chef</div>
             </Link>
         </div>

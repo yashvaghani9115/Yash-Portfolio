@@ -13,7 +13,7 @@ const Cover = () => {
                 <div className="flex md:flex-1 flex-col justify-center gap-4">
                     <div className="flex justify-between items-center gap-5 ">
                         <div className="text-3xl flex flex-col font-bold text-highlight">
-                            Shubham Shingala
+                            Yash Vaghani
                             <div className="text-sm font-thin flex justify-between items-center">
                                 Software Engineer
                             </div>
@@ -29,7 +29,7 @@ const Cover = () => {
                         <Link
                             className="hidden md:block"
                             target="_blank"
-                            href="https://www.linkedin.com/in/shubham-shingala/"
+                            href="https://www.linkedin.com/in/yash-vaghani/"
                         >
                             <Button variant="primary" sizes={'small'}>
                                 <Linkedin color="#0277b5" />

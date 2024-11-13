@@ -8,8 +8,8 @@ import Sidebar from "@/components/Sidebar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shubham Shingala",
-  description: "Shubham Shingala Portfolio, Project and Skills.",
+  title: "Yash Vaghani",
+  description: "Yash Vaghani Portfolio, Project and Skills.",
 };
 
 export default function RootLayout({
