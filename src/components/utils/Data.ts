@@ -19,7 +19,7 @@ export const projectCard: IProjectSectionCardData[] = [
     id: 2,
     title: 'Online Email System',
     techStack: 'MEAN (MongoDB, Express, Angular, Nodejs)',
-    imageUrl: 'gmail.jfif',
+    imageUrl: 'gmail.png',
     href: 'https://github.com/SutharUtsav/Online-Email-System',
   },
   {
